@@ -7,10 +7,14 @@
 
 
 1. 주제 및 데이터 소개: **음성 인식 딥러닝 챗봇** 
+    - 챗봇(chatbot)
+        - 정의: 사람과 텍스트나 음성으로 대화를 나눌 수 있는 프로그램 
+        - 가파른 성장세 
+        - 성장 요인: 과거 규칙 기반, 제한적 활용 → **딥러닝 자연어 처리(NLP) 기술 등과 결합** → 성능 크게 향상, 다양한 분야 적용 가능 
 
     - 판별 AI: PyTorch 기반 - 자연어 처리 딥러닝 모델 생성 및 학습
         - 데이터: 시나리오 기반 json 형식으로 직접 작성
-            - 태그(tag), 패턴(pattern), 응답(response) 항목 포함 →  **상황별 확장 가능**
+            - 태그(tag), 패턴(pattern), 응답(response) 항목 포함 → **상황별 확장 가능**
     - 음성 인식 기능: Python, JavaScript 함수 활용
     - 2종의 인터페이스 구현: Python GUI, Flask 기반 웹 인터페이스
 
@@ -23,9 +27,10 @@
     	- 모델 학습 진행 및 모델 저장  
     	    - Epoch 1000 - final loss: 0.0001   
 3. 음성 인식 기능 
-
-    - Python GUI : Python - SpeechRecognition 라이브러리 활용
-    - 웹 인터페이스:  JavaScript - webkitSpeechRecognition 라이브러리 활용 → 음성 저장 및 전송을 html 상에서 처리하여 결과를 전송하도록 구현  
+    - 목적: 음성 인식 기능을 추가하여 챗봇 접근성 및 활용도 향상 → 어린이, 고령자 등도 챗봇 활용 가능 
+    - 구현 
+        - Python GUI : Python - SpeechRecognition 라이브러리 활용
+        - 웹 인터페이스:  JavaScript - webkitSpeechRecognition 라이브러리 활용 → 음성 저장 및 전송을 html 상에서 처리하여 결과를 전송하도록 구현  
 4. 2종의 인터페이스 구현  
 
     - Python GUI 구현: Tkinter 라이브러리 활용
